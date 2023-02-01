@@ -13,7 +13,7 @@
         "format": ["cjs"],
         "main": "apps/sos/src/main.ts",
         "tsConfig": "apps/sos/tsconfig.app.json",
-        "assets": ["apps/sos/src/assets"]
+        "assets": [{ "glob": "**/*", "input": "apps/sos/src/assets", "output": "assets"}]
       }
     },
     "serve": {

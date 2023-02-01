@@ -3,7 +3,7 @@
   "executors": {
     "build": {
       "implementation": "./src/executors/build/executor",
-      "schema": "./src/executors/build/schema.json",
+      "schema": "../../node_modules/@nrwl/esbuild/src/executors/esbuild/schema.json",
       "description": "build executor"
     }
   }
