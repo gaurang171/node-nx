@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "name": "builds",
+  "version": "0.0.1",
+  "generators": {
+    "builds": {
+      "factory": "./src/generators/builds/generator",
+      "schema": "./src/generators/builds/schema.json",
+      "description": "builds generator"
+    }
+  }
+}
